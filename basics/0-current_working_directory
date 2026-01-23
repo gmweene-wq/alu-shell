@@ -1,4 +1,2 @@
 #!/bin/bash
-
-dire = $(pwd)
-echo "$dire"
+pwd
