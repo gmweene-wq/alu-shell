@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # using the while loop
-griphen=1
-while [griphen -le 10 ]
- do 
- echo "Best School"
-griphen=$(griphen + 1 )
+count=1
+while [ $count -le 10 ]
+do
+    echo "Best School"
+
+    ((count++))
+done
